@@ -6,9 +6,9 @@ vector<pair<int,int> > bridge_edges;
 
 class BridgeInGraph{
 	private:
-	      int V,E;
-	      static int timer;
-	      int used[30000],Tin[300000] ,Tup[300000];
+	  int V,E;
+	  static int timer;
+	  int used[30000],Tin[300000] ,Tup[300000];
           void inti();
           void findBridgeEdge(int,int);
     public: 
